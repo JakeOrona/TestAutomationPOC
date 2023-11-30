@@ -54,6 +54,8 @@ class WebAppTest(unittest.TestCase):
             print("\nFound Generate Button")
             generate_button.click()
             print("Generate button clicked")
+            print("Waiting 15 seconds for image generation")
+            time.sleep(15)
 
         except AssertionError as e:
             print("AssertionError:", e)
