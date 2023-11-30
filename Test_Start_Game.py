@@ -1,6 +1,6 @@
 import time
 import unittest
-import Test Automation POC
+import TestAutomationPOC
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-class TestStartGame(unittest.TestCase)
+class TestStartGame(unittest.TestCase):
     def test_start_game(self):
             try:
                 # click play
