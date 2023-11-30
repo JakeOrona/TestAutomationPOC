@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-class WebAppTestCase1(unittest.TestCase):
+class WebAppTestCase1(unittest.TestSuite):
     def setUp(self):
         # set up url then driver
         self.url = "https://linerider.com"
